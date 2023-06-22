@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Table Creation</title>
+    <link rel="stylesheet" href="assignment1.css"/>
+    <script src="assignment1.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <lable class="logo">LOGO</lable>
+        <nav>
+            <ul class="navbar">
+                <li><a href="assignment1.html">HOME</a></li>
+                <li><a href="#">TABLE</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <div class="container">
+        <div class="input_table">
+            <p>TABLE CREATION</p>
+            <div class="tableElement">
+                <label for="row">Please Select Any Number of Rows: </label>
+                <input type="number" id="row" min="1" value="10"><br><br>
+                <label for="column">Please Select Any Number of Rows: </label>
+                <input type="number" id="col" min="1" value="10"><br><br>
+                <button onclick="drawTable()">Draw Table</button>
+            </div> 
+        </div>
+       
+        <div class="table_result">
+            <p> TABLE RESULT</p>
+            <div>
+                <table id="multiTable"></table> 
+            </div>   
+        </div>
+    </div> 
+</body>
+<footer>
+    <div class = "footer">
+        Copyright &copy; Sothyra Chan - 301289779 <br> @centennialcollege.ca
+    </div>
+</footer>
+</html>

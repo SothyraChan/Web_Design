@@ -1,0 +1,137 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px, 10%;
+    background-color: #a2836e;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    line-height: 70px;
+    margin-left: 20px;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.navbar a {
+    float: right;
+    margin-right: 20px;
+    font-family:"Monserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navbar li {
+    display: inline-flex;
+    padding: 0 20px;
+    font-size: 17px;
+    line-height: 70px;
+    margin: 0px 5px;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar li a:hover {
+    background-color: rgba(150, 121, 105,1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+
+/*----Body----*/
+
+
+body {
+    background-color:cornsilk;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: burlywood;
+    background-position: center;
+    height: 600px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding: 10px 20px 20px 20px;
+}
+
+.container p {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.input_table {
+    margin-bottom: 20px;
+}
+
+.tableElement {
+    border-style: dotted;
+    border-color: black;
+    padding: 30px 30px 30px 30px;
+    font-family: sans-serif;
+}
+
+
+/*
+    Table result
+*/
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px, 10px, 10px, 10px;
+    border: 2px solid rgb(249, 244, 239);
+    background-color: rgb(246, 215, 175);
+}
+
+input[type="number"] {
+    padding: 5px;
+    width: 50px;
+}
+
+button {
+    padding: 9px;
+    border: double;
+    cursor: pointer;
+}
+
+.table_result {
+    border: 2px solid black;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+}
+.table_result p{
+    margin-bottom: px;
+}
+
+/*
+    Footer
+*/
+
+.footer {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-top: 150px;
+}
